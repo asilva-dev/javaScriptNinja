@@ -62,3 +62,47 @@ pessoa
   andar: [Function],
   aniversario: [Function]
 }
+
+pessoa.sobrenome = 'Silva';
+'Silva'
+
+pessoa
+{
+  nome: 'Amanda',
+  idade: 32,
+  peso: 85,
+  altura: 1.6,
+  sexo: 'feminino',
+  cor: 'preta',
+  andar: [Function],
+  aniversario: [Function],
+  sobrenome: 'Silva'
+}
+
+
+pessoa.nomeCompleto = function(){
+  return pessoa.nome + ' '+ pessoa.sobrenome;
+}
+  [Function]
+
+pessoa
+{
+  nome: 'Amanda',
+  idade: 32,
+  peso: 85,
+  altura: 1.6,
+  sexo: 'feminino',
+  cor: 'preta',
+  andar: [Function],
+  aniversario: [Function],
+  sobrenome: 'Silva',
+  nomeCompleto: [Function]
+}
+
+pessoa.nomeCompleto()
+  'Amanda Silva'
+
+  
+  
+  
+  
