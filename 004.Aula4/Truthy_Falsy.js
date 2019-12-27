@@ -8,20 +8,22 @@ if('0'){ teste = true;} else { teste = false;}
 true
 if ('amanda'){ teste = true; } else {teste = false;}
 true
-if (undefined){ teste = true; } else {teste = false;}
-false
-if (null){ teste = true; } else {teste = false;}
-false
 if ({}){ teste = true; } else {teste = false;}
 true
 if ([]){ teste = true; } else {teste = false;}
 true
+if (2){ teste = true; } else {teste = false;}
+true
+
+
+if (undefined){ teste = true; } else {teste = false;}
+false
+if (null){ teste = true; } else {teste = false;}
+false
 if (NaN){ teste = true; } else {teste = false;}
 false
 if (-0){ teste = true; } else {teste = false;}
 false
-if (2){ teste = true; } else {teste = false;}
-true
 if (false){ teste = true; } else {teste = false;}
 false
 
