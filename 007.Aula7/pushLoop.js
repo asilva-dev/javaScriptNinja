@@ -70,3 +70,14 @@ for( var num = 0; num < 20; num++ ){
 18
 19
 undefined
+
+for( var num = 2, arroz = 3; num < 5; num++ ){
+    console.log(num);
+    console.log(arroz++);
+}
+2   
+3
+3
+4
+4
+5
