@@ -3,6 +3,13 @@ var name = new String('Mandy');
 name;
 //retorna [String: 'Mandy']
 
+name.length;
+//retorna 5
+
+ name.valueOf()
+//retorna 'Mandy'
+
+
 var age = new Number(30);
 age;
 //retorna -> [Number: 30]
