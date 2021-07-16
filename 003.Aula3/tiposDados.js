@@ -9,11 +9,16 @@ todos os tipos que não sejam esses acima, são objetos(Objeto é um conjunto de
 var objeto = {propriedade: 'valor', propriedade2: 10, propriedade3: true};
 //undefined
 objeto
-{ propriedade: 'valor', propriedade2: 10, propriedade3: true }
+//{ propriedade: 'valor', propriedade2: 10, propriedade3: true }
 
 objeto.propriedade2 //10
 
-var pessoa = {nome: 'Amanda', idade: 31, peso: 85, altura: 1.60}
+var pessoa = {
+    nome: 'Amanda', 
+    idade: 31, 
+    peso: 85, 
+    altura: 1.60
+}
 undefined
 
 pessoa.nome //'Amanda'

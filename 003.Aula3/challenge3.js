@@ -99,7 +99,7 @@ pessoa.nomeCompleto() //'Ola, meu nome é Amanda Silva'
 Qual a idade da pessoa? (Use a instrução para responder e comentários
 inline ao lado da instrução para mostrar qual foi a resposta retornada)
 */
-pessoa.idade(); //32
+pessoa.idade; //32
 
 /*
 Qual o peso da pessoa? (Use a instrução para responder e comentários

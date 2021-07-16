@@ -7,33 +7,19 @@ pessoa.sexo = 'feminino'
 
 //pessoa retorna:
 pessoa
-{ nome: 'Amanda', idade: 31, peso: 85, altura: 1.6, sexo: 'feminino' }
+// { nome: 'Amanda', idade: 31, peso: 85, altura: 1.6, sexo: 'feminino' }
 
 pessoa.cor = 'preta'
 'preta'
 
 pessoa
-{
-  nome: 'Amanda',
-  idade: 31,
-  peso: 85,
-  altura: 1.6,
-  sexo: 'feminino',
-  cor: 'preta'
-}
+// {nome: 'Amanda',idade: 31,peso: 85,altura: 1.6, sexo: 'feminino', cor: 'preta'}
 
 pessoa.cor
 'preta'
 
 pessoa
-{
-  nome: 'Amanda',
-  idade: 31,
-  peso: 85,
-  altura: 1.6,
-  sexo: 'feminino',
-  cor: 'preta'
-}
+// { nome: 'Amanda', idade: 31, peso: 85, altura: 1.6, sexo: 'feminino', cor: 'preta' }
 
 //Adicionando um método na pessoa
 
@@ -52,32 +38,15 @@ pessoa.aniversario = function(){
 pessoa.aniversario(); //undefined
 //ao chamar o método aniversario, a idade da pessoa aumentou
 pessoa
-{
-  nome: 'Amanda',
-  idade: 32,
-  peso: 85,
-  altura: 1.6,
-  sexo: 'feminino',
-  cor: 'preta',
-  andar: [Function],
-  aniversario: [Function]
-}
+{ nome: 'Amanda', idade: 32, peso: 85, altura: 1.6, sexo: 'feminino', cor: 'preta', andar: [Function], aniversario: [Function]}
 
 pessoa.sobrenome = 'Silva';
 'Silva'
 
 pessoa
-{
-  nome: 'Amanda',
-  idade: 32,
-  peso: 85,
-  altura: 1.6,
-  sexo: 'feminino',
-  cor: 'preta',
-  andar: [Function],
-  aniversario: [Function],
-  sobrenome: 'Silva'
-}
+// {
+//   nome: 'Amanda', idade: 32, peso: 85, altura: 1.6, sexo: 'feminino', cor: 'preta',andar: [Function], aniversario: [Function], sobrenome: 'Silva'
+// }
 
 
 pessoa.nomeCompleto = function(){
